@@ -1,9 +1,11 @@
 # Scoop Bucket Template
 
 <!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+[![Tests](https://github.com/schnow265/scoopet/actions/workflows/ci.yml/badge.svg)](https://github.com/schnow265/scoopet/actions/workflows/ci.yml) [![Excavator](https://github.com/schnow265/scoopet/actions/workflows/excavator.yml/badge.svg)](https://github.com/schnow265/scoopet/actions/workflows/excavator.yml)
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+schnow265's bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+
+<!--
 
 ## How do I use this template?
 
@@ -25,13 +27,15 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 8. If you'd like your bucket to be indexed on `https://scoop.sh`, add the
    topic `scoop-bucket` to your repository.
 
+-->
+
 ## How do I install these manifests?
 
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
+scoop bucket add snowbucket https://github.com/schnow265/scoopet
+scoop install snowbucket/<manifestname>
 ```
 
 ## How do I contribute new manifests?
