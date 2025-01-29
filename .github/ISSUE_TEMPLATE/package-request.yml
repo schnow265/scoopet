@@ -12,14 +12,12 @@ body:
 - type: checkboxes
   attributes:
     label: Criteria
-    description: For a package to be acceptable in this bucket, it should be
+    description: For a package to be acceptable in this bucket, it should
     options:
-    - label: Criteria 1
+    - label: have a OSS compatible license (https://opensource.org/licenses)
       required: true
-    - label: Criteria 2
-      required: true
-    - label: Criteria 3
-      required: true
+    - label: Publish its releases to GitHub, including binaries. (optional, GitHub releases have higher packaging priority)
+      required: false
 - type: input
   attributes:
     label: Name

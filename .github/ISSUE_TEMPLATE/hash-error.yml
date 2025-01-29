@@ -14,6 +14,6 @@ body:
   attributes:
     label: Package Name and Version
     description: Name and version of package (install name) which has incorrect hash.
-    placeholder: e.g. 7zip@21.00 (not '7-Zip')
+    placeholder: devpod@0.6.10
   validations:
     required: true
