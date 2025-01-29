@@ -13,6 +13,8 @@ body:
       required: true
     - label: I have verified that I am using the latest version of Scoop and corresponding bucket.
       required: true
+    - label: I have confirmed that this is a packaging bug, and not a bug in the software.
+      required: true
 - type: input
   attributes:
     label: Package Name
