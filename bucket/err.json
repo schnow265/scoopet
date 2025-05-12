@@ -1,0 +1,11 @@
+{
+  "url": "https://download.microsoft.com/download/4/3/2/432140e8-fb6c-4145-8192-25242838c542/Err_6.4.5/Err_6.4.5.exe",
+  "bin": [ [ "Err_6.4.5.exe", "err.exe" ] ],
+  "license": "Unknown",
+  "version": "6.4.5",
+  "extract_dir": "err",
+  "homepage": "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-code-lookup-tool",
+  "hash": "88739EC82BA16A0B4A3C83C1DD2FCA6336AD8E2A1E5F1238C085B1E86AB8834A",
+  "description": "The Microsoft Error Lookup Tool displays the message text that is associated with a hexadecimal status code (or other code). This text is defined in various Microsoft source-code header files, such as Winerror.h, Setupapi.h, and so on.",
+  "notes": "If Microsoft releases a new version of Err, please notify me in the issues of the repository, since I couldn't get autoupdate to work properly."
+}
