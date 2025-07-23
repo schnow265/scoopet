@@ -6,8 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/sst/opencode/releases/download/v0.3.57/opencode-windows-x64.zip",
-            "hash": "a7d943a15fdb5c45d3ee37445efa75313576ab40313de503bbd10266ee50e137",
-            "extract_dir": "opencode-windows-x64"
+            "hash": "a7d943a15fdb5c45d3ee37445efa75313576ab40313de503bbd10266ee50e137"
         }
     },
     "bin": "opencode.exe",
