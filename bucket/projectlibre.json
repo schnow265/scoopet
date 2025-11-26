@@ -21,11 +21,12 @@
         "args": [
             "/VERYSILENT",
             "/DIR=\"$dir\"",
-            "/LOG=\"$dir\\projectlibre.log\"",
+            "/L=\"$dir\\projectlibre.log\"",
             "/SUPPRESSMSGBOXES",
             "/NORESTART",
             "/NOCLOSEAPPLICATIONS",
-            "/NORESTARTAPPLICATIONS"
+            "/NORESTARTAPPLICATIONS",
+            "/qn"
         ],
         "file": "projectlibre.exe"
     },
