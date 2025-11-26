@@ -1,0 +1,47 @@
+{
+    "version": "1.9.8",
+    "description": "Free and open-source project management software",
+    "homepage": "https://projectlibre.com",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/projectlibre/files/ProjectLibre/1.9.3/projectlibre-1.9.3.exe/download#/projectlibre.exe",
+            "hash": "sha256:069f0d89a94a35d8105a59bdb1e4e4765aabca378d17c7b21c732fd61c5cbed3"
+        }
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/projectlibre/files/ProjectLibre/$version/projectlibre-$version.exe/download#/projectlibre.exe"
+    },
+    "bin": "projectlibre.exe",
+    "checkver": {
+        "regex": "a href=\"/projects/projectlibre/files/ProjectLibre/([\\d.]+)/\"",
+        "url": "https://sourceforge.net/projects/projectlibre/files/ProjectLibre/"
+    },
+    "installer": {
+        "args": [
+            "/VERYSILENT",
+            "/DIR=\"$dir\"",
+            "/LOG=\"$dir\\projectlibre.log\"",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART",
+            "/NOCLOSEAPPLICATIONS",
+            "/NORESTARTAPPLICATIONS"
+        ],
+        "file": "projectlibre.exe"
+    },
+    "license": "CPAL-1.0",
+    "shortcuts": [
+        [
+            "ProjectLibre.exe",
+            "ProjectLibre"
+        ]
+    ],
+    "uninstaller": {
+        "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "file": "unins000.exe"
+    }
+}
