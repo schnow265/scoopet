@@ -18,16 +18,6 @@
         "url": "https://sourceforge.net/projects/projectlibre/files/ProjectLibre/"
     },
     "installer": {
-        "args": [
-            "/VERYSILENT",
-            "/DIR=\"$dir\"",
-            "/L=\"$dir\\projectlibre.log\"",
-            "/SUPPRESSMSGBOXES",
-            "/NORESTART",
-            "/NOCLOSEAPPLICATIONS",
-            "/NORESTARTAPPLICATIONS",
-            "/qn"
-        ],
         "file": "projectlibre.exe"
     },
     "license": "CPAL-1.0",
